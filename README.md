@@ -2,9 +2,18 @@
 **抖音无水印视频下载** <br><br>
 **暂时还不支持TikTok** <br><br>
 **网页版稍后会上线**
-
+<br>
 # 说明 Description
 **本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途**
+<br>
+
+# 用法 Usage
+~~~
+# 请确保已经安装requests。如果没有安装，请执行以下代码
+pip3 install requests
+python3 douyin.py
+~~~
+<br>
 
 # 源代码 Source code
 ~~~

@@ -11,16 +11,15 @@
 <br><br>
 *请求参数*
 <br>
+
 功能 | 接口 |
 ----------|----------|
 请求方式  | GET |
 URL  | https://dy.nisekoo.com/api/ |
-请求参数  | url |
-<br><br>
-*返回类型*
-<br>
+
+
 | 参数名称  | 类型 |  实例值 |
-|----------|----------|----------|
+| ---------- |---------- | ---------- |
 | url | String | https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0  |
 | status  | String | success |
 ~~~

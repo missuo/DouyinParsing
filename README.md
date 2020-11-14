@@ -11,8 +11,9 @@
 <br><br>
 <br>
 
-请求方式  | GET |
-URL  | https://dy.nisekoo.com/api/ |
+请求方式  | URL |
+---------- |---------- |
+GET  | https://dy.nisekoo.com/api/ |
 
 
 | 参数名称  | 类型 |  实例值 |

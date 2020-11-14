@@ -11,11 +11,11 @@
 <br><br>
 *请求参数*
 <br>
-| 功能 | 接口 |
-|----------|----------|
-| 请求方式  | GET |
-| URL  | https://dy.nisekoo.com/api/ |
-| 请求参数  | url |
+功能 | 接口 |
+----------|----------|
+请求方式  | GET |
+URL  | https://dy.nisekoo.com/api/ |
+请求参数  | url |
 <br><br>
 *返回类型*
 <br>

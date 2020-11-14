@@ -9,6 +9,11 @@
 **已完成网页版解析项目** [抖音解析](https://dy.nisekoo.com) <br><br>
 **已完成API接口**
 <br>
+~~~
+https://dy.nisekoo.com/api/?url=%E4%B8%8E%E5%85%B6%E9%9A%94%E7%A9%BA%E8%A6%81%E6%B1%82%E7%9A%84%E5%BF%A0%E8%AF%9A%20%E4%B8%8D%E5%A6%82%E8%AE%A9%E5%BD%BC%E6%AD%A4%E8%87%AA%E7%94%B1%20%20https://v.douyin.com/JHC3f6U/%20%E5%A4%8D%E5%88%B6%E6%AD%A4%E9%93%BE%E6%8E%A5%EF%BC%8C%E6%89%93%E5%BC%80%E6%8A%96%E9%9F%B3%EF%BC%8C%E7%9B%B4%E6%8E%A5%E8%A7%82%E7%9C%8B%E8%A7%86%E9%A2%91%EF%BC%81
+无需去除中文
+~~~
+<br>
 请求方式  | URL |
 ---------- |---------- |
 GET  | https://dy.nisekoo.com/api/ |

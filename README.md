@@ -3,6 +3,25 @@
 **暂时还不支持TikTok** <br><br>
 **网页版稍后会上线**
 <br>
+
+# 更新 Update
+**增加了对背景音乐的下载**
+**已完成网页版解析项目 [抖音解析][https://dy.nisekoo.com] **
+**已完成API接口**
+<br>
+*请求参数*
+| 功能  | 接口 |
+| 请求方式  | GET |
+| URL  | https://dy.nisekoo.com/api/ |
+| 请求参数  | url |
+*返回类型*
+| 参数名称  | 类型 |  实例值  |
+| url | String | https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0  |
+| status  | String | success |
+~~~
+{"url": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0", "status": "success"}
+~~~
+
 # 说明 Description
 **本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途**
 <br>

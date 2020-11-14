@@ -9,11 +9,8 @@
 **已完成网页版解析项目** [抖音解析](https://dy.nisekoo.com) <br><br>
 **已完成API接口**
 <br><br>
-*请求参数*
 <br>
 
-功能 | 接口 |
-----------|----------|
 请求方式  | GET |
 URL  | https://dy.nisekoo.com/api/ |
 

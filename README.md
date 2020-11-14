@@ -1,3 +1,62 @@
-# douyin
-抖音无水印视频解析下载 
-Douyin video analysis download without watermark
+# 抖音 Douyin
+功能:
+解析得到无水印视频链接
+进行无水印视频下载
+
+# 说明
+*本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途*
+
+# 源代码 Source code
+~~~
+#!/usr/bin/env python3
+# -*- coding: UTF-8 -*-
+# https://github.com/missuo/douyin
+
+
+import requests
+import re
+import webbrowser
+
+# 输入链接，不用去除中文
+all_url = input("请输入需要解析的链接:(支持包含中文)") 
+pattern = re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')    # 正则表达式匹配URL
+url_list = re.findall(pattern,all_url) # 在这里会自动从字符串中提取URL链接，返回的是一个列表
+url = url_list[0]
+#print(url)
+
+# 定义函数用于获取抖音视频的id
+def get_redirect_url(url):
+	header = {
+		'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+		'Upgrade-Insecure-Requests': '1',
+	}
+	data = requests.get(headers=header, url=url, timeout=5)
+	vid = re.findall(r'\d+',data.url)
+	return vid[0]
+vid = get_redirect_url(url)
+#print(vid)
+
+# 向API发送GET请求
+response = requests.get('https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?item_ids='+str(vid))
+item = response.json().get("item_list")[0]
+#print(item)
+
+# 提取play_addr,也就是真实的视频链接，将playvm替换为play，以获得无水印的视频链接
+mp4 = item.get("video").get("play_addr").get("url_list")[0].replace("playwm", "play")
+print('真实的视频链接为:',mp4)
+
+# 进行下载，会保存在和 .py文件 同一目录下
+headers = {
+	'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+	'Upgrade-Insecure-Requests': '1',
+}
+res = requests.get(mp4, headers=headers, allow_redirects=True)
+mp4url = res.url
+desc = item.get("desc")
+video = requests.get(url=mp4url, headers=headers)
+with open(desc+".mp4", 'wb') as f:
+	f.write(video.content)
+	f.close()
+	print(u"已经完成下载。")
+~~~
+

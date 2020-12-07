@@ -1,7 +1,6 @@
 # 抖音 Douyin
 **抖音无水印视频下载** <br><br>
-**暂时还不支持TikTok** <br><br>
-**网页版稍后会上线**
+**暂时还不支持TikTok** <br>
 <br>
 
 # 更新 Update

@@ -1,9 +1,14 @@
-# 抖音 Douyin
+# 抖音解析
 **抖音无水印视频下载** <br><br>
 **暂时还不支持TikTok** <br>
 <br>
+## 2020年1月更新
+**已经全部改写为PHP实现解析**
+**稳定性提升**
+**解析速度提升**
+**[Demo](https://dy.nisekoo.com)**
 
-# 更新 Update
+## 更新
 **增加了对背景音乐的下载** <br><br>
 **已完成网页版解析项目** [抖音解析](https://dy.nisekoo.com) <br><br>
 **已完成API接口（请求时也可以不去除中文）**
@@ -24,11 +29,11 @@ GET  | https://dy.nisekoo.com/api/ |
 {"url": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0", "status": "success"}
 ~~~
 
-# 说明 Description
+## 说明
 **本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途**
 <br>
 
-# 用法 Usage
+## 用法
 ~~~
 # 请确保已经安装requests。如果没有安装，请执行以下代码
 pip3 install requests
@@ -36,7 +41,7 @@ python3 douyin.py
 ~~~
 <br>
 
-# 源代码 Source code
+## 源代码
 ~~~
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-

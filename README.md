@@ -1,55 +1,88 @@
 # DouyinParsing
-**抖音无水印视频和背景音乐的解析下载**
+抖音无水印视频和背景音乐的解析下载
 
-## 2021年1月更新
-**已经全部改写为PHP实现解析** 
+## 写在前面
+**本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途，构成侵权概不负责。所有视频的版权始终属于「字节跳动」。**
 
-**稳定性提升** 
+**PHP接口的代码暂不开源，但您仍可以使用[接口](https://dy.nisekoo.com/api)**
 
-**解析速度提升** 
+我搭建的解析网站域名为 [dy.nisekoo.com](https://dy.nisekoo.com)
 
-**[Demo](https://dy.nisekoo.com)** 
+网站截图
+![网站截图](https://telegraph.work/file/0e7c0bae0c1fb58492dbc.png)
 
+## 目前功能
+- [x] 解析无水印视频
+- [x] 解析背景音乐
+- [x] 解析视频标题
+- [x] 解析作者昵称
+- [x] 解析作者ID
+- [x] 不需要去除多余字符
+- [ ] TikTok解析
+- [ ] 一键下载所有视频
 
-## 更新
-**增加了对背景音乐的下载** <br><br>
-**已完成网页版解析项目** [抖音解析](https://dy.nisekoo.com) <br><br>
-**已完成API接口（请求时也可以不去除中文）**
-<br>
-~~~
-https://dy.nisekoo.com/api/?url=https://v.douyin.com/JHC3f6U/
-~~~
-请求方式  | URL |
----------- |---------- |
-GET  | https://dy.nisekoo.com/api/ |
+## 关于更新
+### 2021年1月更新
+- [x] 稳定性提升
+- [x] 速度提升
+- [x] PHP接口
 
+## 接口使用
+对于接口的使用次数，我没有做任何限制。大家可以无限次调用，来完成小程序或者别的版本的解析。
 
-| 参数名称  | 类型 |  实例值 |
-| ---------- |---------- | ---------- |
-| url | String | https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0  |
-| status  | String | success |
-~~~
-{"url": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0", "status": "success"}
-~~~
+**接口和网页解析一致，都无需去除中文和多余字符**
 
-## 说明
-**本项目纯属个人爱好，学习Python所创作，严禁用于任何商业用途**
-<br>
+接口：[https://dy.nisekoo.com/api](https://dy.nisekoo.com/api)
 
-## 用法
-~~~
-# 请确保已经安装requests。如果没有安装，请执行以下代码
+- [x] 支持POST
+- [x] 支持GET
+
+请求时需要提交的参数为：url=与其隔空要求的忠诚 不如让彼此自由  https://v.douyin.com/JHC3f6U/ 复制此链接，打开抖音，直接观看视频！
+
+例如：
+
+发送GET请求
+```
+https://dy.nisekoo.com/api?url=与其隔空要求的忠诚 不如让彼此自由  https://v.douyin.com/JHC3f6U/ 复制此链接，打开抖音，直接观看视频！
+```
+
+正常返回为：
+```
+{
+    "code": "500",
+    "status": "success",
+    "mp4": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0",
+    "mp3": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-music/6889721604616899336.mp3",
+    "desc": "与其隔空要求的忠诚 不如让彼此自由",
+    "id": "20377085",
+    "nickname": "拔刀小爱神"
+}
+```
+
+错误返回为：
+```
+{
+    "code": "404",
+    "status": "failed",
+    "msg": "请传入URL，支持GET/POST，只需传入url参数即可"
+}
+```
+
+## Python版的使用
+请确保已经安装requests。如果没有安装，请执行以下代码
+```
 pip3 install requests
+```
+如果已经安装，请直接执行：
+```
 python3 douyin.py
-~~~
-<br>
+```
 
-## 源代码
-~~~
+
+## Python版本代码
+```python
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-# https://github.com/missuo/douyin
-
 
 import requests
 import re
@@ -96,5 +129,5 @@ with open(desc+".mp4", 'wb') as f:
 	f.write(video.content)
 	f.close()
 	print(u"已经完成下载。")
-~~~
+```
 

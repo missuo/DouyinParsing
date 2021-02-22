@@ -9,7 +9,7 @@
 我搭建的解析网站域名为 [dy.nisekoo.com](https://dy.nisekoo.com)
 
 网站截图
-![截图](https://telegraph.work/file/0e7c0bae0c1fb58492dbc.png)
+![截图](http://static.nisekoo.com/image/截屏2021-02-23 上午2.25.02.png)
 
 ## 目前功能
 - [x] 解析无水印视频

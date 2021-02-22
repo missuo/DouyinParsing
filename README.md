@@ -49,7 +49,7 @@ https://dy.nisekoo.com/api?url=与其隔空要求的忠诚不如让彼此自由h
 ```
 
 正常返回为：
-```
+```json
 {
     "code": "500",
     "status": "success",
@@ -62,7 +62,7 @@ https://dy.nisekoo.com/api?url=与其隔空要求的忠诚不如让彼此自由h
 ```
 
 错误返回为：
-```
+```json
 {
     "code": "404",
     "status": "failed",

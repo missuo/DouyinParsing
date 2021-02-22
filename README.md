@@ -9,7 +9,7 @@
 * 我搭建的解析网站为 [抖音解析平台](https://dy.nisekoo.com)
 
 网站截图
-![截图](https://cdn.nisekoo.com/123.png)
+![截图](https://telegraph.work/file/152e74557fae149d5b8ad.png)
 
 ## 目前功能
 - [x] 解析无水印视频

@@ -45,7 +45,7 @@
 
 发送GET请求
 ```
-https://dy.nisekoo.com/api/?url=与其隔空要求的忠诚不如让彼此自由https://v.douyin.com/JHC3f6U/复制此链接，打开抖音，直接观看视频！
+https://dy.nisekoo.com/api/?url=https://v.douyin.com/JHC3f6U/
 ```
 
 正常返回为：

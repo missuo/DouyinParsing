@@ -7,6 +7,12 @@
 * 严禁用于任何商业用途，如果构成侵权概不负责
 * PHP接口的代码暂不开源，但您仍可以使用 [解析接口](https://dy.nisekoo.com/api)
 * 我搭建的解析网站为 [抖音解析平台](https://dy.nisekoo.com)
+* 由于iOS保存视频比较麻烦，推荐使用我的「[快捷指令](https://www.icloud.com/shortcuts/b84daadd617149b7b3066f0c39305d95)」版本
+
+### 快捷指令版本使用指南
+在抖音App内点击分享 -> 复制链接 -> 运行指令。即可自动完成下载。
+
+与网页版使用的是同样的接口，所以我会同时维护两个版本。
 
 网站截图
 ![截图](https://telegraph.work/file/152e74557fae149d5b8ad.png)

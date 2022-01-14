@@ -55,6 +55,7 @@ https://dy.nisekoo.com/api/?url=https://v.douyin.com/JHC3f6U/
 ```
 
 正常返回为：
+`CODE` 不符合 `RESTful API`，由于修改会导致目前的正常使用。因此暂时不做修改。
 ```json
 {
     "code": "500",

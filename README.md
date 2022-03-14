@@ -15,7 +15,7 @@
 与网页版使用的是同样的接口，所以我会同时维护两个版本。
 
 网站截图
-![截图](https://telegraph.work/file/152e74557fae149d5b8ad.png)
+![截图](https://telegraph.eowo.us/file/152e74557fae149d5b8ad.png)
 
 ## 目前功能
 - [x] 解析无水印视频

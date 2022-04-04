@@ -6,7 +6,7 @@
 * 所有视频的版权始终属于「字节跳动」
 * 严禁用于任何商业用途，如果构成侵权概不负责
 * PHP接口的代码暂不开源，但您仍可以使用 [解析接口](https://dy.nisekoo.com/api)
-* 我搭建的解析网站为 [抖音解析平台](https://dy.nisekoo.com)
+* **强烈推荐使用** 我搭建的解析网站为 [抖音解析平台](https://dy.nisekoo.com)
 * 由于iOS保存视频比较麻烦，推荐使用我的「[快捷指令](https://www.icloud.com/shortcuts/b84daadd617149b7b3066f0c39305d95)」版本
 
 ### 快捷指令版本使用指南
@@ -29,7 +29,7 @@
 
 ## 关于更新
 ### 2022年4月更新
-- [x] 修改已知Bug（感谢[@Nunnber](https://github.com/Nunnber)的[反馈](https://github.com/missuo/DouyinParsing/issues/6)。）
+- [x] 修改已知Bug（感谢[@Nunnber](https://github.com/Nunnber)的[反馈](https://github.com/missuo/DouyinParsing/issues/6)）
 
 ### 2021年1月更新
 - [x] 稳定性提升

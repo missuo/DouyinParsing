@@ -28,6 +28,9 @@
 - [ ] 一键下载所有视频
 
 ## 关于更新
+### 2022年4月更新
+- [x] 修改已知Bug（感谢[@Nunnber](https://github.com/Nunnber)的[反馈](https://github.com/missuo/DouyinParsing/issues/6)。）
+
 ### 2021年1月更新
 - [x] 稳定性提升
 - [x] 速度提升

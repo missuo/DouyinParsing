@@ -8,7 +8,7 @@
 * 本项目纯属个人爱好创作
 * 所有视频的版权始终属于「字节跳动」
 * 严禁用于任何商业用途，如果构成侵权概不负责
-* PHP接口的代码暂不开源，但您仍可以使用 [解析接口](https://dy.nisekoo.com/api)
+* PHP接口的代码暂不开源，但您仍可以使用 [解析接口](https://api.missuo.me/douyin)
 * **强烈推荐使用** 我搭建的解析网站为 [抖音解析平台](https://dy.nisekoo.com)
 * 由于iOS保存视频比较麻烦，推荐使用我的「[快捷指令](https://www.icloud.com/shortcuts/b84daadd617149b7b3066f0c39305d95)」版本
 
@@ -44,7 +44,7 @@
 
 **接口和网页解析一致，都无需去除中文和多余字符**
 
-接口：[https://dy.nisekoo.com/api](https://dy.nisekoo.com/api)
+接口：[https://api.missuo.me/douyin](https://api.missuo.me/douyin)
 
 - [x] 支持POST
 - [x] 支持GET
@@ -57,18 +57,16 @@
 
 发送GET请求
 ```
-https://dy.nisekoo.com/api/?url=https://v.douyin.com/JHC3f6U/
+https://api.missuo.me/douyin?url=https://v.douyin.com/JHC3f6U/
 ```
 
 正常返回为：
-
-**`CODE` 不符合 `RESTful API`，由于修改会导致目前的正常使用。因此暂时不做修改。**
 ```json
 {
-    "code": "500",
+    "code": 200,
     "status": "success",
     "mp4": "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0300fac0000bunodsrcdphlft5871u0&ratio=720p&line=0",
-    "mp3": "https://sf3-cdn-tos.douyinstatic.com/obj/ies-music/6889721604616899336.mp3",
+    "mp3": "https://sf6-cdn-tos.douyinstatic.com/obj/ies-music/6889721604616899336.mp3",
     "desc": "与其隔空要求的忠诚 不如让彼此自由",
     "id": "20377085",
     "nickname": "拔刀小爱神"
@@ -78,8 +76,15 @@ https://dy.nisekoo.com/api/?url=https://v.douyin.com/JHC3f6U/
 错误返回为：
 ```json
 {
-    "code": "404",
+    "code": 404,
     "status": "failed",
-    "msg": "请传入URL，支持GET/POST，只需传入url参数即可"
+    "msg": "Missing URL parameter!"
+}
+```
+```json
+{
+    "code": 404,
+    "status": "failed",
+    "msg": "Incomputive URL is incorrect!"
 }
 ```

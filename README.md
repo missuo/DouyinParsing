@@ -29,6 +29,7 @@ README_EN / [README_CN](https://github.com/missuo/DouyinParsing/blob/main/README
 
 ### iOS Shortcuts
 [Add Shortcuts](https://www.icloud.com/shortcuts/b84daadd617149b7b3066f0c39305d95)
+
 Click Share -> Copy link -> Run Shortcuts. The download will be completed automatically.
 
 ### Android App
@@ -80,7 +81,7 @@ Response(Failed):
 The open source code for this repository.
 
 ## License
-[Apache License 2.0](https://github.com/missuo/DouyinParsing/blob/main/LICENSE). Forbidden for any commercial use.
+[Apache License 2.0](https://github.com/missuo/DouyinParsing/blob/main/LICENSE) **Forbidden for any commercial use**
 
 
 

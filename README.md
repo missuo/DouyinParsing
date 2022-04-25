@@ -15,7 +15,7 @@ README_EN / [README_CN](https://github.com/missuo/DouyinParsing/blob/main/README
 
 ## Update
 ### April, 2022
-- [x] Fixed known bugs（Thanks to [@Nunnber](https://github.com/Nunnber)[#6](https://github.com/missuo/DouyinParsing/issues/6)）
+- [x] Fixed known bugs（Thanks to [@Nunnber](https://github.com/Nunnber) 's [#6](https://github.com/missuo/DouyinParsing/issues/6)）
 
 ### January, 2021
 - [x] improved stability

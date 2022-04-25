@@ -81,7 +81,9 @@ Response(Failed):
 The open source code for this repository.
 
 ## License
-[Apache License 2.0](https://github.com/missuo/DouyinParsing/blob/main/LICENSE) **Forbidden for any commercial use**
+[Apache License 2.0](https://github.com/missuo/DouyinParsing/blob/main/LICENSE) 
+
+**Forbidden for any commercial use**
 
 
 

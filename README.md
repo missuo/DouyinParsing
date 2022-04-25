@@ -18,9 +18,9 @@ README_EN / [README_CN](https://github.com/missuo/DouyinParsing/blob/main/README
 - [x] Fixed known bugs（Thanks to [@Nunnber](https://github.com/Nunnber)[#6](https://github.com/missuo/DouyinParsing/issues/6)）
 
 ### January, 2021
--[x] improved stability
--[x] speed increase
--[x] PHP interface
+- [x] improved stability
+- [x] speed increase
+- [x] PHP interface
 
 ## Usage
 ### Web Version(Recommended)

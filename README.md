@@ -41,6 +41,8 @@ Developing...Coming soon...
 - **Developers can call it an unlimited number of times to finish the parsing of the applet or other versions.**
 - **No need to remove any Chinese characters when passing in parameters.**
 - **Support GET and POST requests**
+- **Please remove the referrer in the jump**
+> `rel="noopener noreferrer"` or `<meta name="referrer" content="never">`
 
 API: *[https://api.missuo.me/douyin](https://api.missuo.me/douyin)*
 

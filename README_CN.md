@@ -1,7 +1,7 @@
 # DouyinParsing
 抖音(中国区)无水印视频、背景音乐、作者ID、作者昵称、作品标题等的全能解析和下载
 
-[README_EN]((https://github.com/missuo/DouyinParsing/blob/main/README.md)) / README_CN
+[English](https://github.com/missuo/DouyinParsing/blob/main/README.md) | 简体中文
 
 # 电脑端/安卓端推荐使用网页版 [https://dy.nisekoo.com](https://dy.nisekoo.com)
 # 苹果端推荐使用 [快捷指令](https://www.icloud.com/shortcuts/b84daadd617149b7b3066f0c39305d95)

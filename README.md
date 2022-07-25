@@ -1,7 +1,7 @@
 # DouyinParsing
 All-in-one analysis and download of TikTok(China) no-watermark videos, background music, author IDs, author nicknames, work titles, etc.
 
-README_EN / [README_CN](https://github.com/missuo/DouyinParsing/blob/main/README_CN.md)
+English / [简体中文](https://github.com/missuo/DouyinParsing/blob/main/README_CN.md)
 
 ## Features
 - [x] Parse no-watermark videos

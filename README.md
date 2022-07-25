@@ -1,4 +1,4 @@
-English / [简体中文](https://github.com/missuo/DouyinParsing/blob/main/README_CN.md)
+English｜[简体中文](https://github.com/missuo/DouyinParsing/blob/main/README_CN.md)
 
 
 # DouyinParsing

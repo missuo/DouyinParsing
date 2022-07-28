@@ -15,6 +15,9 @@ All-in-one analysis and download of TikTok(China) no-watermark videos, backgroun
 - [ ] Download all videos with one click
 
 ## Update
+### July, 2022
+- [x] The Python version has been uploaded to PyPi and this project is no longer maintained. [missuo/DouyinParser](https://github.com/missuo/DouyinParser)
+
 ### April, 2022
 - [x] Fixed known bugs（Thanks to [@Nunnber](https://github.com/Nunnber) For [#6](https://github.com/missuo/DouyinParsing/issues/6)）
 
@@ -81,7 +84,7 @@ Response(Failed):
 ```
 
 ## Python Version
-The open source code for this repository.
+The open source code for this repository [missuo/DouyinParser](https://github.com/missuo/DouyinParser).
 
 ## License
 [Apache License 2.0](https://github.com/missuo/DouyinParsing/blob/main/LICENSE) 
